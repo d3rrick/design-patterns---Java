@@ -17,7 +17,7 @@ public class NotificationBuilder {
             case  "LIFETIME":
                 return lifetimeBooking(this.booking);
             default:
-                return null;
+                throw new UnsupportedOperationException("unknown type");
         }
         //can be substituted with if statements
 
