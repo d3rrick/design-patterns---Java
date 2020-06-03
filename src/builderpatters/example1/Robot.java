@@ -10,23 +10,23 @@ public class Robot implements RobotPlan{
 
     @Override
     public void setRobotHead(String head) {
-        robotHead = head;
+        this.robotHead = head;
 
     }
 
     @Override
     public void setRobotTorso(String torso) {
-        robotTorso=torso;
+        this.robotTorso=torso;
     }
 
     @Override
     public void setRobotArms(String arms) {
-        robotArms = arms;
+        this.robotArms = arms;
     }
 
     @Override
     public void setRobotLegs(String legs) {
-        robotLegs = legs;
+        this.robotLegs = legs;
     }
 
     public String getRobotHead() {
