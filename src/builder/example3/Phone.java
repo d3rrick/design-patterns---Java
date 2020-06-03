@@ -1,4 +1,4 @@
-package builderpatters.example3;
+package builder.example3;
 
 public class Phone implements PhonePlan{
     private String os;

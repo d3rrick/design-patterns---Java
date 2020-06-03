@@ -1,4 +1,4 @@
-package builderpatters.example2;
+package builder.example2;
 
 enum BookingType{
     INDIVIDUAL,COACHING,LIFETIME
