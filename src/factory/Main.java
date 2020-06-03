@@ -6,8 +6,14 @@ public class Main {
         //resolving a type of server
         // ftp, mail, app etc...
 
-        ServerInterface server = ServerFactory.getServer("MAIl");
-        server.resolve();
+        ServerInterface mailServer = ServerFactory.getServer("MAIl");
+        mailServer.resolve();
+
+        ServerInterface ftpServer = ServerFactory.getServer("ftp");
+        ftpServer.resolve();
+
+        ServerInterface nonExistent = ServerFactory.getServer("bad");
+        nonExistent.resolve();
 
     }
 }
