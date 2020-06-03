@@ -17,7 +17,7 @@ public class Main {
 
 //        create a booking object
         Booking b = new Booking();
-        b.setBookingType(BookingType.INDIVIDUAL);
+        b.setBookingType(BookingType.LIFETIME);
 
 //        create a notification builder
         NotificationBuilder builder = new NotificationBuilder(b);

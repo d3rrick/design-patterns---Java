@@ -21,3 +21,6 @@
   
 - Example3
   * A simple phone application.
+  
+- Example4
+  * A contacts manager
