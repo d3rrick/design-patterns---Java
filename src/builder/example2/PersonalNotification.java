@@ -1,4 +1,4 @@
-package builderpatters.example2;
+package builder.example2;
 
 public interface PersonalNotification {
     //the interface takes in a booking object because there is a need to know the details of the booking

@@ -1,4 +1,4 @@
-package builderpatters.example4;
+package builder.example4;
 
 public class Contact {
     private String firstName;

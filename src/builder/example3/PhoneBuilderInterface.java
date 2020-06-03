@@ -1,6 +1,4 @@
-package builderpatters.example3;
-
-import builderpatters.example1.Robot;
+package builder.example3;
 
 public interface PhoneBuilderInterface {
     public void buildOs();

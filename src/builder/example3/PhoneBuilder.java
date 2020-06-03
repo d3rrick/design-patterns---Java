@@ -1,4 +1,4 @@
-package builderpatters.example3;
+package builder.example3;
 
 public class PhoneBuilder implements PhoneBuilderInterface{
     public Phone phone;
