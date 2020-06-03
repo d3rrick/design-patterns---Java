@@ -1,4 +1,4 @@
-package builderpatters.example1;
+package builder.example1;
 
 public class Robot implements RobotPlan{
 
